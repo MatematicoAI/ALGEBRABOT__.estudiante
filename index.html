@@ -4,6 +4,36 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Álgebrabot</title>
+        <style>
+        .chatbot-button {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background-color: #f3770e;
+            color: #ffffff;
+            padding: 10px 20px;
+            border-radius: 50px;
+            cursor: pointer;
+            z-index: 1000; /* Asegura que el botón esté encima de otros elementos */
+            font-family: Arial, sans-serif; /* Opcional: para mejorar la apariencia del texto */
+            font-weight: bold; /* Opcional: para hacer el texto en negrita */
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2); /* Opcional: añade una sombra sutil */
+            border: none; /* Opcional: elimina el borde por defecto */
+            outline: none; /* Opcional: elimina el contorno al hacer clic */
+        }
+        
+        /* Opcional: Efecto hover para mejorar la interacción */
+        .chatbot-button:hover {
+            background-color: #d45a00; /* Un tono más oscuro al pasar el ratón */
+            transform: translateY(-2px); /* Pequeño salto hacia arriba */
+            box-shadow: 0 6px 12px rgba(0,0,0,0.3); /* Sombra más pronunciada */
+        }
+        
+        /* Opcional: Efecto al hacer clic */
+        .chatbot-button:active {
+            transform: translateY(0); /* Vuelve a la posición original */
+        }
+    </style>
 </head>
 <body>
     <h1>Bienvenido a nuestro ALGEBRABOT</h1>
